@@ -3,8 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <script src="script.js"></script>
 </head>
 <body>
-
+<div id="container">
+    <div>
+    <label><b>Username</b></label>
+    </div>
+    <div>
+    <input id="username" type="text" placeholder="Enter Username..." required>
+    </div>
+    <div>
+        <label><b>Password </b></label>
+    </div>
+    <div>
+    <input id="password" type="password" placeholder="Enter Password..." required>
+    </div>
+    <div>
+        <input id="submit" type="submit" onclick="authenticate()">
+    </div>
+</div>
 </body>
 </html>
