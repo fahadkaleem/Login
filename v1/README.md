@@ -1,5 +1,6 @@
 # Login Page
 
+# Status: COMPLETE
 ### v1 Requirements
 1. Create a simple HTML login form
 2. Create a page when login is successful
